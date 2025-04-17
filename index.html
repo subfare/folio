@@ -9,7 +9,7 @@
         
         :root {
             --terminal-bg: #0a0a12;
-            --terminal-green: #0f0;
+            --terminal-green: #d336ff;
             --terminal-cyan: #0ff;
             --terminal-purple: #b19cd9;
             --terminal-red: #f44;
@@ -320,7 +320,7 @@
             ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             
-            ctx.fillStyle = '#0f0';
+            ctx.fillStyle = '#d336ff';
             ctx.font = fontSize + 'px monospace';
             
             for (let i = 0; i < rainDrops.length; i++) {
@@ -407,7 +407,7 @@
             { text: "> ROBLOX: ", delay: 20 },
             { text: "@subfare", delay: 30, style: "color: #0ff" },
             { text: "\n\n", delay: 100 },
-            { text: "> Type 'help' for available commands", delay: 30, style: "color: #0f0" },
+            { text: "> Type 'help' for available commands", delay: 30, style: "color: #d336ff" },
             { text: "\n", delay: 50 },
         ];
         
@@ -451,7 +451,7 @@
             
             const prompt = document.createElement('span');
             prompt.textContent = '> ';
-            prompt.style.color = '#0f0';
+            prompt.style.color = '#d336ff';
             terminalText.appendChild(prompt);
             
             const cmdText = document.createElement('span');
